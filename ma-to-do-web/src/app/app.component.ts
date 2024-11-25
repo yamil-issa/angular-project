@@ -6,7 +6,7 @@ import { TodoListComponent } from './todo-list/todo-list.component';
   standalone: true,
   imports: [TodoListComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'ma-to-do-web';

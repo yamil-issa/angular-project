@@ -1,0 +1,36 @@
+:host {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+
+  input[type="checkbox"] {
+    margin-right: 15px;
+  }
+
+  span {
+    flex-grow: 1;
+
+    &.completed {
+      text-decoration: line-through;
+      color: #95a5a6;
+    }
+  }
+
+  button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+
+    &:hover {
+      background-color: #c0392b;
+    }
+  }
+}
