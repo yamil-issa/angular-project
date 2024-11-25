@@ -1,0 +1,8 @@
+<app-input (taskCreated)="createTask($event)"></app-input>
+    <div *ngFor="let task of tasks">
+      <app-todo
+        [task]="task"
+        (taskUpdated)="updateTask($event)"
+        (taskDeleted)="deleteTask($event)">
+      </app-todo>
+    </div>
