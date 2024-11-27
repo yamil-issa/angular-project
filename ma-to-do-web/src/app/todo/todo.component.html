@@ -1,5 +1,13 @@
 <div>
-  <input type="checkbox" [(ngModel)]="task.completed" (change)="updateTask()" />
+  <input
+    type="checkbox"
+    id="checkbox-{{task.id}}"
+    [(ngModel)]="task.completed"
+    (change)="updateTask()"
+  />
+  <label for="checkbox-{{task.id}}" class="custom-checkbox"></label>
   <span [class.completed]="task.completed">{{ task.title }}</span>
-  <button (click)="deleteTask()">Supprimer</button>
+  <button (click)="deleteTask()">
+    <mat-icon>delete</mat-icon>
+  </button>
 </div>
