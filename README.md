@@ -13,7 +13,7 @@ Une application de gestion de tâches développée avec Flutter, Angular et Fire
 - Supprimer des tâches.
 - Synchronisation en temps réel avec Firebase.
 
-## Installation et Déploiement
+## Installation et lancer l'application 
 ### Application Flutter
 - Installer Flutter SDK.
 - Installer les dépendance avec la commande : `flutter pug get`
