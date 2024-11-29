@@ -21,5 +21,5 @@ Une application de gestion de tâches développée avec Flutter, Angular et Fire
 
 ### Application Angular
 - Installer Node.js et Angular CLI.
-- Installer les dépendances avec la commande : npm install
+- Installer les dépendances avec la commande : `npm install`
 - Lancer l'application avec : ng serve
